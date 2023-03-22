@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-content:space-evenly;
+    border-bottom: 2px solid black;
+}
+.nav_bar{
+    float: left;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+.nav_bar a{
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align:left;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+.nav_bar a:hover{
+    background-color: rgb(32, 29, 29);
+}
+.logo{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+.Logo_words{
+    float: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+.Logo_words a{
+    display: block;
+    text-align:left;
+    padding: none;
+    padding: 5px 5px;
+    text-decoration: none;
+    list-style-type:none;
+}
+.search_bar{
+    float: right;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+.search_bar a{
+    display: block;
+    flex-direction: row;
+    list-style-type:none;
+
+}
+.icon{
+    margin: none;
+    border: none;
+    padding: none;
+    image-resolution: cover ;
+}
+.head_pic>p{
+    flex-direction: row;
+    background-image: cover;
+}
+.text-box{
+    text-align: justify;
+    width: 400px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    border-radius: 5px ;
+}
+.container1{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 14px 50px;
+}
+.container1>div{
+
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 14px 50px;
+}
+.container1 > div a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.name{
+    flex-direction: row;
+}
+p1{
+    float:left;
+    border-bottom: 2px solid black;
+}
+p1:hover{
+    background-color:grey;
+}
+p2{
+    float:right
+    
+}
+.learn{
+    flex-direction: row;
+}
+button{
+    float: right;
+    color: orange;
+}
